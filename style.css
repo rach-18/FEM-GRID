@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECF2F8;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 85%;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.box {
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* DANIEL */
+
+.daniel {
+    background-color: #7541C8;
+    grid-column: 1/3;
+    position: relative;
+    z-index: -2;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.name-qualification {
+    margin-left: 20px;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.paragraph {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    font-size: 0.9rem;
+}
+
+.name, .para-1 {
+    color: white;
+    font-weight: bold;
+}
+
+.para-1, .para-2 {
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+
+.qualification, .para-2 {
+    color: rgba(255, 255, 255, 0.6);
+    /* font-size: 0.8rem; */
+}
+
+.para-2 {
+    font-size: 0.9rem;
+}
+
+.qualification {
+    font-size: 0.8rem;
+}
+
+.image {
+    position: absolute;
+    left: 75%;
+    z-index: -1;
+    top: 0;
+}
+
+/* JONATHAN */
+
+.jonathan {
+    background-color: #48556A;
+}
+
+/* KLRA */
+
+.klra {
+    background-color: #FFFFFF;
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+}
+
+.kira, .kira-para-1 {
+    font-weight: bold;
+}
+
+.kira {
+    font-size: 0.9rem;
+}
+
+.kira-qualification, .kira-para-2 {
+    color: rgba(0, 0, 0, 0.6);
+    /* font-size: 0.8rem; */
+}
+
+.kira-qualification {
+    font-size: 0.8rem;
+}
+
+/* JEANETTE */
+
+.jeanette {
+    background-color: #FFFFFF;
+}
+
+.jeanette-name, .jeanette-para-1 {
+    font-weight: bold;
+}
+
+.jeanette-name {
+    font-size: 0.9rem;
+}
+
+.jeanette-qualification, .jeanette-para-2 {
+    color: rgba(0, 0, 0, 0.6);
+    /* font-size: 0.8rem; */
+}
+
+.jeanette-qualification {
+    font-size: 0.8rem;
+}
+
+/* PATRICK */
+
+.patrick {
+    background-color: #19212E;
+    grid-column: 2/4;
+}
